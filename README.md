@@ -18,10 +18,10 @@ You will need Matlab with two toolboxes for EEG analysis: EEGLAB (https://sccn.u
 1. Create BEST files excluding epochs marked during artifact detection. SCRIPT: `createBEST_exclude_public.m`. OUTPUT: 's%_BEST_excludeepochs.best'
 2. Decode.
    - 2.1. Decode datasets with excluded trials (N=31). For all: 3 folds, floor=10 trials per class, SVM, one vs. all, every 2nd point: 
-          - (1) run1 vs. run2 vs. run3, SCRIPT: `decode_folds3_trials10_N31_exclude_public.m`; 
+          - run1 vs. run2 vs. run3, SCRIPT: `decode_folds3_trials10_N31_exclude_public.m`; 
    - 2.2. Decode datasets with excluded trials (N=24). For all: 4 folds, floor=10 trials per class, SVM, one vs. all, every 2nd point: 
-          - (1) run1 vs. run2 vs. run3, SCRIPT: `decode_folds4_trials10_N24_exclude_public.m`; 
+          - run1 vs. run2 vs. run3, SCRIPT: `decode_folds4_trials10_N24_exclude_public.m`; 
    - 2.3. Decode datasets with excluded (N=24). For all: 3 folds, floor=13 trials per class, SVM, one vs. all, every 2nd point: 
-          - (1) run1 vs. run2 vs. run3, SCRIPT: `decode_folds3_trials13_N24_exclude_public.m`; 
+          - run1 vs. run2 vs. run3, SCRIPT: `decode_folds3_trials13_N24_exclude_public.m`; 
 4. Plot decoding results.
 5. Plot confusion matrix.

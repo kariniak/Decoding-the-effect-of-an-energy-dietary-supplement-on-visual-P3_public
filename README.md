@@ -17,11 +17,11 @@ Preprocessing for decoding
 Now ready for DECODING
 1. Create BEST files excluding epochs marked during artifact detection. SCRIPT: 'createBEST_exclude.m'. OUTPUT: 's%_BEST_excludeepochs.best'
 2. Decode.
-2.1. Decode datasets with excluded trials (N=31). For all: 3 folds, floor=10 trials per class, SVM, one vs. all, every 2nd point: 
-(1) run1 vs. run2 vs. run3, SCRIPT: 'decode_folds3_trials10_N31_exclude.m'; 
-2.2. Decode datasets with excluded trials (N=24). For all: 4 folds, floor=10 trials per class, SVM, one vs. all, every 2nd point: 
-(1) run1 vs. run2 vs. run3, SCRIPT: 'decode_folds4_trials10_N24_exclude.m'; 
-2.3. Decode datasets with excluded (N=24). For all: 3 folds, floor=13 trials per class, SVM, one vs. all, every 2nd point: 
-(1) run1 vs. run2 vs. run3, SCRIPT: 'decode_folds3_trials13_N24_exclude.m'; 
+  2.1. Decode datasets with excluded trials (N=31). For all: 3 folds, floor=10 trials per class, SVM, one vs. all, every 2nd point: 
+    (1) run1 vs. run2 vs. run3, SCRIPT: 'decode_folds3_trials10_N31_exclude.m'; 
+  2.2. Decode datasets with excluded trials (N=24). For all: 4 folds, floor=10 trials per class, SVM, one vs. all, every 2nd point: 
+    (1) run1 vs. run2 vs. run3, SCRIPT: 'decode_folds4_trials10_N24_exclude.m'; 
+  2.3. Decode datasets with excluded (N=24). For all: 3 folds, floor=13 trials per class, SVM, one vs. all, every 2nd point: 
+    (1) run1 vs. run2 vs. run3, SCRIPT: 'decode_folds3_trials13_N24_exclude.m'; 
 3. Plot decoding results.
 4. Plot confusion matrix.

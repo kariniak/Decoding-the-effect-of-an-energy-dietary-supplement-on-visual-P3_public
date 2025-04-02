@@ -1,1 +1,23 @@
+bin 1
+run1 standard
+.{101}
 
+bin 2
+run1 target followed by correct response
+.{201}{5}
+
+bin 3
+run2 standard
+.{102}
+
+bin 4
+run2 target followed by correct response
+.{202}{5}
+
+bin 5
+run3 standard
+.{103}
+
+bin 6
+run3 target followed by correct response
+.{203}{5}
